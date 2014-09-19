@@ -156,6 +156,7 @@ padding-top: 50px;
 
 .featurette-image {
     padding-top: 120px;
+    
 }
 
 .wtf {
@@ -174,3 +175,9 @@ padding-top: 50px;
 
 
 
+
+.img-circle {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 255, 77, 0.64);
+-moz-box-shadow:    0px 0px 20px 0px rgba(0, 255, 77, 0.64);
+box-shadow:         0px 0px 20px 0px rgba(0, 255, 77, 0.64);
+}
