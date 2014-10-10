@@ -161,9 +161,9 @@
                 <h2 class="featurette-heading"><code>Software</code> Hackday<span class="text-muted"><br>Introduction to network penetration with Kali Linux.</span></h2>
                 <p class="lead">Ever wonder how a password is cracked? Join Tech Club November 8th and 15th as we assume the role of a hacker and gain access to your network.</p>
                 <a class="btn btn-success" href="Register.html" role="button"> Register now </a>
-              
+
                 <div class="clock-1" style="margin:2em;"></div>
-                
+
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-responsive" src="img/kali.png">
@@ -181,9 +181,9 @@
                 <h2 class="featurette-heading"><code>Hardware</code> Hackday <span class="text-muted"><br>What should we build together?</span></h2>
                 <p class="lead">Here at Tech Club we believe that you should get to choose. Follow the link below to view and then vote on what hardware kit we will be assembling. Last vote taken November 15th.</p>
                 <a class="btn btn-success" href="ViewKitsVoter.html" role="button">View what we had in mind</a>
-           
-            <div class="clock-2" style="margin:2em;"></div>
-            
+
+                <div class="clock-2" style="margin:2em;"></div>
+
             </div>
         </div>
 
@@ -221,11 +221,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-
+     
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
     <script src="js/flipclock.js"></script>
+    <script src="js/cheet.js"></script>
+    
 
     <script>
         window.scrollback = {
@@ -242,22 +244,26 @@
         }(document, "script"));
     </script>
 
-<script type="text/javascript">
-		var clocks = [];
-		
-		$(document).ready(function() {
-			
-			clocks.push($('.clock-1').FlipClock({
-		        clockFace: 'DailyCounter'
-		    }));
+    <script type="text/javascript">
+        var clocks = [];
 
-			clocks.push($('.clock-2').FlipClock({
-		        clockFace: 'DailyCounter'
-		    }));
+        $(document).ready(function () {
 
-		});
-	</script>
-	
+            clocks.push($('.clock-1').FlipClock({
+                clockFace: 'DailyCounter'
+            }));
+
+            clocks.push($('.clock-2').FlipClock({
+                clockFace: 'DailyCounter'
+            }));
+
+        });
+    </script>
+    <script>
+        cheet('h i d d e n a d m i n', function () {
+            window.location = "hiddentechclub.html";
+        });
+    </script>
 
 
 </body>
